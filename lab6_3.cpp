@@ -1,8 +1,13 @@
 #include<iostream>
 using namespace std;
 
+//done!!
 char before(char x){
-	//Write your function definition here
+	int a1 = x, i = 65;
+	if(a1 >= 65 && a1 <= 90){
+		if(x == 'A'){return 'Z';}
+		else{return x-1;}
+	} else {return '0';}
 }
 
 int main(){
